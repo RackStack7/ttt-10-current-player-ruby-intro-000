@@ -8,6 +8,7 @@ def turn_count(board, value)
       turn_count += 1
     end
   end
+end
 
 
 turn_count(board)
