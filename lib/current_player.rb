@@ -8,9 +8,9 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
       turn_count += 1
     end
   end
-end
+#end
 
-turn_count(board)
+#turn_count(board)
 
 
 turn_count(board)
