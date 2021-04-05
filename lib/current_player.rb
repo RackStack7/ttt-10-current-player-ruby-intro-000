@@ -1,6 +1,9 @@
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 #def turn_count(board)
+
+board[5]
+
   index = 0
   turn_count = 0
   while index <= board.length-1
