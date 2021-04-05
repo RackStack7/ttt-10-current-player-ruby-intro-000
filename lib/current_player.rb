@@ -1,17 +1,14 @@
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-def turn_count(board)
+def turn_count(board, value)
+  index = 0
   turn_count = 0
-  x = 0
-  while x != 9
-    if board[x] == "O" or board[x] == "X"
+  while index >= board.length
+    if board[index] == "O" or board[index] == "X"
       turn_count += 1
-      x += 1
-    else
-      x += 1
     end
   end
-end
+
 
 turn_count(board)
 
