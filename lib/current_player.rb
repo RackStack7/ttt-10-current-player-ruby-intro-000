@@ -8,6 +8,8 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
       turn_count += 1
     end
   end
+
+turn_count = turn_count.to_i
 #end
 
 #turn_count(board)
