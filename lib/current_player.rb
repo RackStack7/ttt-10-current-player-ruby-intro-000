@@ -9,7 +9,6 @@ def turn_count(board)
     else
       break
     end
-    turn_count = turn_count.to_i
   end
 end
 
