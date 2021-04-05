@@ -4,6 +4,7 @@ def turn_count(board)
   index = 0
   turn_count = 0
   while index <= board.length-1
+    index += 1
     if board[index] == "O" or board[index] == "X"
       turn_count += 1
     else
