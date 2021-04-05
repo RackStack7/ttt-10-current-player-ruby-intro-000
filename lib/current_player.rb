@@ -5,8 +5,7 @@ def turn_count(board)
   turn_count = 0
   while index <= board.length-1
     if board[index] == "O" or board[index] == "X"
-      true
-      turn_count += 1
+      true turn_count += 1
     else
       false
       break
