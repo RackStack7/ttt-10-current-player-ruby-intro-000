@@ -12,6 +12,7 @@ board[5]
     else
       break
     end
+    turn_count = turn_count.to_i
   end
 
 turn_count = turn_count.to_i
