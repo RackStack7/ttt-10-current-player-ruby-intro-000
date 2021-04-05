@@ -7,6 +7,7 @@ board[5]
   index = 0
   turn_count = 0
   while index <= board.length-1
+      turn_count = 0
     if board[index] == "O" or board[index] == "X"
       turn_count += 1
     else
