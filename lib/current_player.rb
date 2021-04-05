@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 #def turn_count(board)
   index = 0
   turn_count = 0
-  until index == board.length
+  while index > board.length
     if board[index] == "O" or board[index] == "X"
       turn_count += 1
     end
