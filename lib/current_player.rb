@@ -8,6 +8,7 @@ def turn_count(board)
       true
       turn_count += 1
     else
+      false
       break
     end
     index += 1
