@@ -13,8 +13,6 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 #turn_count(board)
 
 
-turn_count(board)
-
 #    def current_player(turn_count)
 #      while turn_count != 9
 #      turn = turn_count % 2
