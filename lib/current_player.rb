@@ -1,11 +1,7 @@
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#def turn_count(board)
-
-board[5]
-
+def turn_count(board)
   index = 0
-
   while index <= board.length-1
       turn_count = 0
     if board[index] == "O" or board[index] == "X"
@@ -15,11 +11,7 @@ board[5]
     end
     turn_count = turn_count.to_i
   end
-
-turn_count = turn_count.to_i
-
-puts turn_count
-#end
+end
 
 #turn_count(board)
 
