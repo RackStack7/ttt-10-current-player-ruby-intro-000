@@ -6,6 +6,8 @@ board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   while index <= board.length-1
     if board[index] == "O" or board[index] == "X"
       turn_count += 1
+    else
+      break
     end
   end
 
